@@ -1,33 +1,94 @@
 {
-  "projects": [
+  "bars": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "title": "La Lorenza",
+      "description": "lorem",
+      "address": {
+        "text": "Calle del Dr. Piga, 3, Centro, 28012 Madrid",
+        "latitude": 40.40896029411219,
+        "longitude": -3.698907571330271
+      },
+      "average_price": "20 - 30 $",
+      "rating": 3,
+      "opening_hours": "10:00 - 20:00",
+      "gallery": [
+        "https://media.traveler.es/photos/613769ddfd8ea62e2db312fd/master/w_1600%2Cc_limit/153755.jpg",
+        "https://www.lalorenza.es/images/full-page/restaurant_bg_1.jpg",
+        "https://media.timeout.com/images/105585558/750/422/image.jpg",
+        "https://www.mahoudrid.com/wp-content/uploads/2019/12/Callos-a-la-madrilen%CC%83a-La-Lorenza.jpeg",
+        "https://www.justbefoodie.com/wp-content/uploads/2021/06/LA-LORENZA-oreja-plancha-patatas-740x555.jpg",
+        "https://www.lalorenza.es/images/food-img/food-g-8.jpg"
+      ],
+      "handicapped": true,
+      "contact": {
+        "phone_number": "911 82 69 28",
+        "email": "laLatina@gmail.com"
+      },
+      "capacity": 60
     },
     {
       "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
-  ],
-  "tasks": [
-    {
-      "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
-    },
-    {
-      "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "title": "Bar La Cristina",
+      "description": "lorem",
+      "address": {
+        "text": "Calle la Latina, 2, bajo, 28002 Madrid",
+        "latitude": 82787832,
+        "longitude": 286237326
+      },
+      "average_price": "20 - 30 $",
+      "rating": 5,
+      "opening_hours": "10:00 - 20:00",
+      "gallery": [
+        "https://exampleimage1",
+        "https://exampleimage2",
+        "https://exampleimage3",
+        "https://exampleimage4"
+      ],
+      "handicapped": true,
+      "contact": {
+        "phone_number": "645589749",
+        "email": "laLatina@gmail.com"
+      },
+      "capacity": 200
     },
     {
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "title": "Casa Mortero",
+      "description": "Restaurante agradable, de estilo industrial, que sirve exclusivos entrantes, guisos, platos de carne y postres.",
+      "address": {
+        "text": "C. de Zorrilla, 9, Centro, 28014 Madrid",
+        "latitude": 40.421333192015844,
+        "longitude": -3.696562567658051
+      },
+      "average_price": "30 - 50 $",
+      "rating": 4,
+      "opening_hours": "13:00 - 16:00, 20:15 - 23:30",
+      "gallery": [
+        "https://hips.hearstapps.com/hmg-prod/images/elle-casa-mortero-restaurante-tradicional-madrid-04-1603203305.jpg",
+        "https://www.gastroeconomy.com/wp-content/uploads/2020/09/Gastroeconomy_CasaMortero12.jpg",
+        "https://www.teveoenmadrid.com/wp-content/uploads/2020/10/restaurante-casa-mortero-sala-te-veo-en-madrid.jpg",
+        "https://www.los5mejores.com/wp-content/uploads/Croqueta-Casa-Mortero.-Los-5-Mejores.jpg",
+        "https://media-cdn.tripadvisor.com/media/photo-s/1c/05/1f/01/vacio-de-vaca-a-la-brasa.jpg",
+        "https://gastroranking.es/media/restaurant_images/205257/c6660640-b598-4807-8078-b85c43374270_3956a7b0-145a-11eb-8eaf-dee756426a0d.webp"
+      ],
+      "handicapped": true,
+      "contact": {
+        "phone_number": "910 59 55 70",
+        "email": "casaMortero@gmail.com"
+      },
+      "capacity": 80
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "barId": 1,
+      "text": "Best Bar ever",
+      "recommends": true,
+      "rating": 5,
+      "image_url": "https://exampleimage",
+      "posted_by": "ssff"
     }
   ]
 }
