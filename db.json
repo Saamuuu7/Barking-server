@@ -1,33 +1,85 @@
 {
-  "projects": [
+  "bars": [
     {
       "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
+      "title": "Bar La Latina",
+      "description": "lorem",
+      "address": {
+        "text": "Calle la Latina, 2, bajo, 28002 Madrid",
+        "latitude": 82787832,
+        "longitude": 286237326
+      },
+      "average_price": "20 - 30 $",
+      "rating": 3,
+      "opening_hours": "10:00 - 20:00",
+      "gallery": [
+        "https://media.traveler.es/photos/613769ddfd8ea62e2db312fd/master/w_1600%2Cc_limit/153755.jpg",
+        "https://exampleimage2",
+        "https://exampleimage3",
+        "https://exampleimage4"
+      ],
+      "handicapped": true,
+      "contact": {
+        "phone_number": "645589749",
+        "email": "laLatina@gmail.com"
+      },
+      "capacity": 500
     },
     {
-      "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
+      "title": "La Burlona",
+      "description": "Raciones clásicas y una amplia carta de vinos en un bar elegante y acogedor con una barra abovedada de ladrillo rojo.",
+      "address": {
+        "text": "C. de Sta. Isabel, 40, Centro, 28012 Madrid",
+        "latitude": 40.41044375467662,
+        "longitude": -3.697714917904732
+      },
+      "average_price": "30 - 40 €",
+      "rating": 5,
+      "opening_hours": "13:30 - 01:30",
+      "gallery": [
+        "https://phantom-elmundo.unidadeditorial.es/a4bbbac9f82125777fa054f92d6f4d23/resize/414/f/jpg/assets/multimedia/imagenes/2023/06/28/16879555044213.jpg",
+        "https://images.squarespace-cdn.com/content/v1/614c59568fd5065383bbd4d3/1635682238888-X5ULXUHPUG68917G04U8/04-burlona-_34.jpg",
+        "https://madriddiferente.com/wp-content/uploads/2019/12/TRILERO-cocteles-con-acento-muy-gastronomico.jpg",
+        "hhttps://madriddiferente.com/wp-content/uploads/2019/06/LA-BURLONA-BAR-Gazpacho-amarillo-con-atun-rojo-de-almadraba-B.jpg",
+        "https://www.teveoenmadrid.com/wp-content/uploads/2023/12/Restaurante-la-burlona-banh-te-veo-en-madrid.jpg",
+        "https://www.mahoudrid.com/wp-content/uploads/2023/04/LA-BURLONA-2.jpg"
+      ],
+      "handicapped": false,
+      "contact": {
+        "phone_number": "910180018",
+        "email": "info@laburlona.com"
+      },
+      "capacity": 100,
+      "id": 2
     }
   ],
-  "tasks": [
+  "comments": [
     {
       "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
+      "barId": 1,
+      "text": "Ambiente de diez y la atención mejor aún! La comida exquisita, muy bien elaborado, originales y especiales",
+      "recommends": true,
+      "rating": 5,
+      "image_url": "https://lh5.googleusercontent.com/p/AF1QipP8Sa4KGtTCfs7Qn5qVNprZM_ioLwaNTfQlOQDn=w141-h141-n-k-no-nu",
+      "posted_by": "Miguel"
     },
     {
       "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "barId": 2,
+      "text": "Un descubrimiento! El local es precioso y la parte de coctelería es obligatorio visitarla. Destacar los mejillones con salsa de callos y los tacos!",
+      "recommends": true,
+      "rating": 5,
+      "image_url": "https://lh3.googleusercontent.com/p/AF1QipOGyqoucCUh0klYTZVhNHtReDkOLu-joGZZz5p4=s1360-w1360-h1020",
+      "posted_by": "Laura"
     },
     {
       "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+      "barId": 3,
+      "text": "Un poco caro para tapear",
+      "recommends": true,
+      "rating": 3,
+      "image_url": "",
+      "posted_by": "Elena"
     }
   ]
 }
