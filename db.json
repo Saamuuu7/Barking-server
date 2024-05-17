@@ -3,13 +3,13 @@
     {
       "id": 1,
       "title": "La Lorenza",
-      "description": "lorem",
+      "description": "La Lorenza es una taberna desenfadad con un toque y acentiño gallego muy apetecible, que juega a viajar a cualquier rincón del mundo a través de sus platos.",
       "address": {
-        "text": "Calle del Dr. Piga, 3, Centro, 28012 Madrid",
-        "latitude": 40.40896029411219,
-        "longitude": -3.698907571330271
+        "text": "Calle del Dr. Piga, 3, Centro, 28012 Madrid, España",
+        "latitude": 40.4088255,
+        "longitude": -3.6989183
       },
-      "average_price": "20 - 30 $",
+      "average_price": "20 - 30 €",
       "rating": 3,
       "opening_hours": "10:00 - 20:00",
       "gallery": [
@@ -25,7 +25,8 @@
         "phone_number": "911 82 69 28",
         "email": "laLatina@gmail.com"
       },
-      "capacity": 60
+      "capacity": 60,
+      "AveragePrice": "20 - 30€"
     },
     {
       "title": "La Burlona",
@@ -42,11 +43,11 @@
         "https://phantom-elmundo.unidadeditorial.es/a4bbbac9f82125777fa054f92d6f4d23/resize/414/f/jpg/assets/multimedia/imagenes/2023/06/28/16879555044213.jpg",
         "https://images.squarespace-cdn.com/content/v1/614c59568fd5065383bbd4d3/1635682238888-X5ULXUHPUG68917G04U8/04-burlona-_34.jpg",
         "https://madriddiferente.com/wp-content/uploads/2019/12/TRILERO-cocteles-con-acento-muy-gastronomico.jpg",
-        "hhttps://madriddiferente.com/wp-content/uploads/2019/06/LA-BURLONA-BAR-Gazpacho-amarillo-con-atun-rojo-de-almadraba-B.jpg",
+        "https://madriddiferente.com/wp-content/uploads/2019/06/LA-BURLONA-BAR-Gazpacho-amarillo-con-atun-rojo-de-almadraba-B.jpg",
         "https://www.teveoenmadrid.com/wp-content/uploads/2023/12/Restaurante-la-burlona-banh-te-veo-en-madrid.jpg",
         "https://www.mahoudrid.com/wp-content/uploads/2023/04/LA-BURLONA-2.jpg"
       ],
-      "handicapped": false,
+      "handicapped": true,
       "contact": {
         "phone_number": "910180018",
         "email": "info@laburlona.com"
@@ -63,16 +64,16 @@
         "latitude": 40.421333192015844,
         "longitude": -3.696562567658051
       },
-      "average_price": "30 - 50 $",
+      "average_price": "30 - 50 €",
       "rating": 4,
       "opening_hours": "13:00 - 16:00, 20:15 - 23:30",
       "gallery": [
         "https://hips.hearstapps.com/hmg-prod/images/elle-casa-mortero-restaurante-tradicional-madrid-04-1603203305.jpg",
         "https://www.gastroeconomy.com/wp-content/uploads/2020/09/Gastroeconomy_CasaMortero12.jpg",
         "https://www.teveoenmadrid.com/wp-content/uploads/2020/10/restaurante-casa-mortero-sala-te-veo-en-madrid.jpg",
-        "https://www.los5mejores.com/wp-content/uploads/Croqueta-Casa-Mortero.-Los-5-Mejores.jpg",
+        "https://www.bodeboca.com/blog/wp-content/uploads/2022/07/blog-casamortero-1100x402-1.jpg",
         "https://media-cdn.tripadvisor.com/media/photo-s/1c/05/1f/01/vacio-de-vaca-a-la-brasa.jpg",
-        "https://gastroranking.es/media/restaurant_images/205257/c6660640-b598-4807-8078-b85c43374270_3956a7b0-145a-11eb-8eaf-dee756426a0d.webp"
+        "https://www.teveoenmadrid.com/wp-content/uploads/2020/10/restaurante-casa-mortero-tarta-de-queso-te-veo-en-madrid.jpg"
       ],
       "handicapped": true,
       "contact": {
@@ -80,6 +81,33 @@
         "email": "casaMortero@gmail.com"
       },
       "capacity": 80
+    },
+    {
+      "title": "La Gilderia",
+      "description": "Aperitivos y cervezas, con ambiente juvenil",
+      "address": {
+        "text": "C. de Calatrava, 17, Centro, 28005 Madrid, España",
+        "latitude": 40.40917899999999,
+        "longitude": -3.7115055
+      },
+      "average_price": "15 - 25 €",
+      "rating": "5",
+      "opening_hours": "10:00 - 20:00",
+      "gallery": [
+        "https://media.timeout.com/images/105855354/750/422/image.jpg",
+        "https://media.timeout.com/images/105855353/750/422/image.jpg",
+        "https://conelmorrofino.com/wp-content/uploads/2021/10/La-Gilderia-Madrid.jpg",
+        "https://media.timeout.com/images/105855352/image.jpg",
+        "https://pbs.twimg.com/media/FBfzojpX0AEVe5T?format=jpg&name=large"
+      ],
+      "handicapped": true,
+      "contact": {
+        "phone_number": "645577643",
+        "email": "laGilderia@info.com"
+      },
+      "capacity": "35",
+      "AveragePrice": "10 - 20€",
+      "id": 4
     }
   ],
   "comments": [
@@ -87,28 +115,58 @@
       "id": 1,
       "barId": 1,
       "text": "Ambiente de diez y la atención mejor aún! La comida exquisita, muy bien elaborado, originales y especiales",
-      "recommends": true,
       "rating": 5,
-      "image_url": "https://lh5.googleusercontent.com/p/AF1QipP8Sa4KGtTCfs7Qn5qVNprZM_ioLwaNTfQlOQDn=w141-h141-n-k-no-nu",
+      "image_url": [
+        "https://lh5.googleusercontent.com/p/AF1QipP8Sa4KGtTCfs7Qn5qVNprZM_ioLwaNTfQlOQDn=w141-h141-n-k-no-nu",
+        "https://tortilladepatataslomejordelagastronomia.com/wp-content/uploads/2022/05/4-LA-LORENZA-1-1200x756.jpg",
+        "https://tortilladepatataslomejordelagastronomia.com/wp-content/uploads/2022/01/IMG_0296-1200x900.jpg"
+      ],
       "posted_by": "Miguel"
     },
     {
       "id": 2,
       "barId": 2,
       "text": "Un descubrimiento! El local es precioso y la parte de coctelería es obligatorio visitarla. Destacar los mejillones con salsa de callos y los tacos!",
-      "recommends": true,
       "rating": 5,
-      "image_url": "https://lh3.googleusercontent.com/p/AF1QipOGyqoucCUh0klYTZVhNHtReDkOLu-joGZZz5p4=s1360-w1360-h1020",
+      "image_url": [
+        "https://lh3.googleusercontent.com/p/AF1QipOGyqoucCUh0klYTZVhNHtReDkOLu-joGZZz5p4=s1360-w1360-h1020"
+      ],
       "posted_by": "Laura"
     },
     {
       "id": 3,
       "barId": 3,
-      "text": "Un poco caro para tapear",
-      "recommends": true,
+      "text": "La verdad que es completamente indiganante, fui un sábado y la terraza estaba completamente llena de basura, los camareros eran muy malhumorados, en resumen... A pesar de estar la comida muy rica un asco de servicios",
       "rating": 3,
-      "image_url": "",
+      "image_url": [
+        "https://estaticos-cdn.prensaiberica.es/clip/830966a6-bbe0-44db-9972-db5a88b0183c_16-9-discover-aspect-ratio_default_0.jpg",
+        "https://media-cdn.tripadvisor.com/media/photo-s/1c/05/1f/0b/ensalada-de-pimientos.jpg"
+      ],
       "posted_by": "Elena"
+    },
+    {
+      "barId": 1,
+      "title": "La Lorenza",
+      "text": "Holiiiii",
+      "average_price": "20-30",
+      "rating": "3",
+      "posted_by": "Luis",
+      "image_url": [
+        "https://media.gettyimages.com/id/1337250761/es/foto/ethnic-bartender-preparing-alcoholic-cocktail-at-counter.jpg?s=612x612&w=gi&k=20&c=dSzGfKg69_uGDHBALdAjcnOgymj-Wn8lI-QUaw-yEu4="
+      ],
+      "id": 4
+    },
+    {
+      "barId": 4,
+      "title": "La Gilderia",
+      "text": "Me encantaron las gildas matrimonio",
+      "average_price": "10-20€",
+      "rating": "5",
+      "posted_by": "Marta",
+      "image_url": [
+        "https://lh3.googleusercontent.com/p/AF1QipMJFCyJFPNhoJkWMeQfeAyjskX6D6ZmGr_kuukP=s1360-w1360-h1020"
+      ],
+      "id": 5
     }
   ]
 }
